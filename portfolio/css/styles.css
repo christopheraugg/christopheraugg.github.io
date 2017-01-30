@@ -8,19 +8,14 @@
   height:1000px;
   padding-top: 50px;
 
-
-
 }
 
-.jumbotron {
-  background-color:transparent;
-  height: 100%;
+body {
+  background-color: #222;
 
+      position: relative;
+      font-family: 'Montaga', serif;
 
-}
-
-.spacer {
-  margin-top: 15%;
 }
 
 .contact {
@@ -30,6 +25,16 @@
   height: 600px;
   padding-top: 50px;
 
+}
+
+.container-fluid , .container {
+
+  background-color:clear;
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
 }
 
 .funstuff {
@@ -42,49 +47,11 @@
 
 }
 
-.portfolio {
-
-  background-color: #F5F5F5;
-  color: #222;
-  height: 600px;
-  padding-top: 50px;
-  padding-bottom: 75px;
-
-}
-
-
-.container-fluid , .container {
-
-  background-color:clear;
-}
-
-body {
-  background-color: #222;
-
-      position: relative;
-      font-family: 'Montaga', serif;
-
-}
-
-
-.carousel-control {
-  padding-top:10%;
-  width:5%;
-}
-
-.navbar {
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: 'Cormorant Unicase', serif;
-}
-
-
 hr.style18 {
   border-top: 1px solid #8c8b8b;
   text-align: center;
 }
+
 hr.style18:after {
   content: '§';
   display: inline-block;
@@ -98,6 +65,36 @@ hr.style18:after {
   -moz-transform: rotate(60deg);
   transform: rotate(60deg);
 }
+
+.jumbotron {
+  background-color:transparent;
+  height: 100%;
+
+
+}
+
+.navbar {
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.portfolio {
+
+  background-color: #F5F5F5;
+  color: #222;
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 75px;
+
+}
+
+.spacer {
+  margin-top: 15%;
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -113,8 +110,12 @@ hr.style18:after {
     height:700px;
    }
 
+   .contact {
+    height:100%;
+   }
+
    .portfolio {
-    height:300px;
+    padding-bottom: 230%;
    }
 
 }
