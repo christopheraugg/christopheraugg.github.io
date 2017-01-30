@@ -1,0 +1,98 @@
+.about {
+
+  background-color: #222;
+  color: #fff;
+  background:url('http://wallpaperrs.com/uploads/photography/city-cities-seattle-mt-rainier-washington-mind-boggling-hd-wallpaper-14294419278.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1000px;
+  padding-top: 50px;
+
+
+}
+
+.jumbotron {
+  background-color:transparent;
+  height: 100%;
+
+
+}
+
+.spacer {
+  margin-top: 25%;
+}
+
+.contact {
+
+  background-color: #F5F5F5;
+  color: #222;
+  height: 600px;
+  padding-top: 50px;
+
+}
+
+.funstuff {
+
+  background-color: green;
+  color: #fff;
+  height: 600px;
+  padding-top: 50px;
+
+}
+
+.portfolio {
+
+  background-color: #F5F5F5;
+  color: #222;
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 75px;
+
+}
+
+
+.container-fluid , .container {
+
+  background-color:clear;
+}
+
+body {
+  background-color: #222;
+
+      position: relative;
+      font-family: 'Montaga', serif;
+      font-size:140%;
+}
+
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+.navbar {
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Cormorant Unicase', serif;
+}
+
+
+hr.style18 {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+}
+hr.style18:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #757575;
+  color: #fff;
+  font-size: 18px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
