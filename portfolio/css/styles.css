@@ -9,6 +9,7 @@
   padding-top: 50px;
 
 
+
 }
 
 .jumbotron {
@@ -62,7 +63,7 @@ body {
 
       position: relative;
       font-family: 'Montaga', serif;
-      font-size:140%;
+
 }
 
 
@@ -96,4 +97,24 @@ hr.style18:after {
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
   transform: rotate(60deg);
+}
+
+@media only screen and (max-width: 768px) {
+
+   h2 {
+    font-size:1.5em;
+   }
+
+   .spacer {
+    font-size:1em;
+   }
+
+   .about {
+    height:700px;
+   }
+
+   .portfolio {
+    height:300px;
+   }
+
 }
